@@ -16,7 +16,7 @@
         android:layout_marginTop="75dp"
         android:gravity="center"
         android:text="Sign Language Guide"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/black"
         android:textSize="50dp"
         android:textStyle="bold" />
 
@@ -32,7 +32,7 @@
         android:layout_marginTop="90dp"
         android:background="@color/colorPrimary"
         android:text="Alphabets"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="30dp" />
 
     <Button
@@ -47,7 +47,7 @@
         android:layout_marginTop="19dp"
         android:background="@color/colorPrimary"
         android:text="Numbers"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="30dp" />
 
 </RelativeLayout>
