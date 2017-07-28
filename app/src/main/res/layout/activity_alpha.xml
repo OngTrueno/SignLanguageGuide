@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.example.a15017470.signlanguageguide.alphaActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+            android:id="@+id/imageViewA"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/a"
+            android:layout_alignParentLeft="true"
+            />
+
+            <ImageView
+                android:id="@+id/imageViewB"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/b"
+                android:layout_centerHorizontal="true"
+                />
+
+            <ImageView
+                android:id="@+id/imageViewC"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/c"
+                android:layout_alignParentRight="true"
+                />
+
+            <TextView
+                android:id="@+id/textViewA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@+id/imageViewA"
+                android:layout_below="@+id/imageViewA"
+                android:text="A"
+                android:textAlignment="4"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textViewB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageViewB"
+                android:layout_alignRight="@+id/imageViewB"
+                android:layout_below="@+id/imageViewB"
+                android:text="B"
+                android:textAlignment="4"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textViewC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignLeft="@+id/imageViewC"
+                android:layout_below="@+id/imageViewC"
+                android:text="C"
+                android:textAlignment="4"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageViewD"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="150dp"
+                app:srcCompat="@drawable/d"
+                android:layout_alignParentLeft="true"
+                />
+
+            <ImageView
+                android:id="@+id/imageViewE"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="150dp"
+                app:srcCompat="@drawable/e"
+                android:layout_centerHorizontal="true"
+                />
+
+            <ImageView
+                android:id="@+id/imageViewF"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="150dp"
+                app:srcCompat="@drawable/f"
+                android:layout_alignParentRight="true"
+                />
+
+            <TextView
+                android:id="@+id/textViewD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@+id/imageViewD"
+                android:layout_below="@+id/imageViewD"
+                android:text="D"
+                android:textAlignment="4"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textViewE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageViewE"
+                android:layout_alignRight="@+id/imageViewE"
+                android:layout_below="@+id/imageViewE"
+                android:text="E"
+                android:textAlignment="4"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textViewF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignLeft="@+id/imageViewF"
+                android:layout_below="@+id/imageViewF"
+                android:text="F"
+                android:textAlignment="4"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageViewG"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="280dp"
+                app:srcCompat="@drawable/g"
+                android:layout_alignParentLeft="true"
+                />
+
+            <ImageView
+                android:id="@+id/imageViewH"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="280dp"
+                app:srcCompat="@drawable/h"
+                android:layout_centerHorizontal="true"
+                />
+
+            <ImageView
+                android:id="@+id/imageViewI"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="280dp"
+                app:srcCompat="@drawable/i"
+                android:layout_alignParentRight="true"
+                />
+
+            <TextView
+                android:id="@+id/textViewG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@+id/imageViewG"
+                android:layout_below="@+id/imageViewG"
+                android:text="G"
+                android:textAlignment="4"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textViewH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageViewH"
+                android:layout_alignRight="@+id/imageViewH"
+                android:layout_below="@+id/imageViewH"
+                android:text="H"
+                android:textAlignment="4"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textViewI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignLeft="@+id/imageViewI"
+                android:layout_below="@+id/imageViewI"
+                android:text="I"
+                android:textAlignment="4"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageViewJ"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="410dp"
+                app:srcCompat="@drawable/j"
+                android:layout_alignParentLeft="true"
+                />
+
+            <ImageView
+                android:id="@+id/imageViewK"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="410dp"
+                app:srcCompat="@drawable/k"
+                android:layout_centerHorizontal="true"
+                />
+
+            <ImageView
+                android:id="@+id/imageViewL"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="410dp"
+                app:srcCompat="@drawable/l"
+                android:layout_alignParentRight="true"
+                />
+
+            <TextView
+                android:id="@+id/textViewJ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@+id/imageViewJ"
+                android:layout_below="@+id/imageViewJ"
+                android:text="J"
+                android:textAlignment="4"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textViewK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageViewK"
+                android:layout_alignRight="@+id/imageViewK"
+                android:layout_below="@+id/imageViewK"
+                android:text="K"
+                android:textAlignment="4"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textViewL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignLeft="@+id/imageViewL"
+                android:layout_below="@+id/imageViewL"
+                android:text="L"
+                android:textAlignment="4"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageViewM"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="540dp"
+                app:srcCompat="@drawable/m"
+                android:layout_alignParentLeft="true"
+                />
+
+            <ImageView
+                android:id="@+id/imageViewN"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="540dp"
+                app:srcCompat="@drawable/n"
+                android:layout_centerHorizontal="true"
+                />
+
+            <ImageView
+                android:id="@+id/imageViewO"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="540dp"
+                app:srcCompat="@drawable/o"
+                android:layout_alignParentRight="true"
+                />
+
+            <TextView
+                android:id="@+id/textViewM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@+id/imageViewM"
+                android:layout_below="@+id/imageViewM"
+                android:text="M"
+                android:textAlignment="4"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textViewN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageViewN"
+                android:layout_alignRight="@+id/imageViewN"
+                android:layout_below="@+id/imageViewN"
+                android:text="N"
+                android:textAlignment="4"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textViewO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignLeft="@+id/imageViewO"
+                android:layout_below="@+id/imageViewO"
+                android:text="O"
+                android:textAlignment="4"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageViewP"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="670dp"
+                app:srcCompat="@drawable/p"
+                android:layout_alignParentLeft="true"
+                />
+
+            <ImageView
+                android:id="@+id/imageViewQ"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="670dp"
+                app:srcCompat="@drawable/q"
+                android:layout_centerHorizontal="true"
+                />
+
+            <ImageView
+                android:id="@+id/imageViewR"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="670dp"
+                app:srcCompat="@drawable/r"
+                android:layout_alignParentRight="true"
+                />
+
+            <TextView
+                android:id="@+id/textViewP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@+id/imageViewP"
+                android:layout_below="@+id/imageViewP"
+                android:text="P"
+                android:textAlignment="4"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textViewQ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageViewQ"
+                android:layout_alignRight="@+id/imageViewQ"
+                android:layout_below="@+id/imageViewQ"
+                android:text="Q"
+                android:textAlignment="4"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textViewR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignLeft="@+id/imageViewR"
+                android:layout_below="@+id/imageViewR"
+                android:text="R"
+                android:textAlignment="4"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageViewS"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="800dp"
+                app:srcCompat="@drawable/s"
+                android:layout_alignParentLeft="true"
+                />
+
+            <ImageView
+                android:id="@+id/imageViewT"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="800dp"
+                app:srcCompat="@drawable/t"
+                android:layout_centerHorizontal="true"
+                />
+
+            <ImageView
+                android:id="@+id/imageViewU"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="800dp"
+                app:srcCompat="@drawable/u"
+                android:layout_alignParentRight="true"
+                />
+
+            <TextView
+                android:id="@+id/textViewS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@+id/imageViewS"
+                android:layout_below="@+id/imageViewS"
+                android:text="S"
+                android:textAlignment="4"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textViewT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageViewT"
+                android:layout_alignRight="@+id/imageViewT"
+                android:layout_below="@+id/imageViewT"
+                android:text="T"
+                android:textAlignment="4"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textViewU"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignLeft="@+id/imageViewU"
+                android:layout_below="@+id/imageViewU"
+                android:text="U"
+                android:textAlignment="4"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageViewV"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="930dp"
+                app:srcCompat="@drawable/v"
+                android:layout_alignParentLeft="true"
+                />
+
+            <ImageView
+                android:id="@+id/imageViewW"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="930dp"
+                app:srcCompat="@drawable/w"
+                android:layout_centerHorizontal="true"
+                />
+
+            <ImageView
+                android:id="@+id/imageViewX"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="930dp"
+                app:srcCompat="@drawable/x"
+                android:layout_alignParentRight="true"
+                />
+
+            <TextView
+                android:id="@+id/textViewV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@+id/imageViewV"
+                android:layout_below="@+id/imageViewV"
+                android:text="V"
+                android:textAlignment="4"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textViewW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageViewW"
+                android:layout_alignRight="@+id/imageViewW"
+                android:layout_below="@+id/imageViewW"
+                android:text="W"
+                android:textAlignment="4"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textViewX"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignLeft="@+id/imageViewX"
+                android:layout_below="@+id/imageViewX"
+                android:text="X"
+                android:textAlignment="4"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageViewY"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="1060dp"
+                app:srcCompat="@drawable/y"
+                android:layout_alignParentLeft="true"
+                />
+
+            <ImageView
+                android:id="@+id/imageViewZ"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="1060dp"
+                app:srcCompat="@drawable/z"
+                android:layout_centerHorizontal="true"
+                />
+
+            <TextView
+                android:id="@+id/textViewY"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@+id/imageViewY"
+                android:layout_below="@+id/imageViewY"
+                android:text="Y"
+                android:textAlignment="4"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textViewZ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageViewZ"
+                android:layout_alignRight="@+id/imageViewZ"
+                android:layout_below="@+id/imageViewZ"
+                android:text="Z"
+                android:textAlignment="4"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/black" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
